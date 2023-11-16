@@ -4,6 +4,12 @@ package oopbasics;
 
 public class Main {
      public static void main(String[] args) {
-        System.out.println("oop basics");
-    }
+Food food_01 = new Food ("siomeowers",35.00);
+
+food_01.showFoodName();
+food_01.showFoodPrice();
+
+
+     }
+    
 }
